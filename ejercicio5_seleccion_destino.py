@@ -71,7 +71,7 @@ if destino_valido:
     provisiones_requeridas = dias_viaje * tripulantes + RESERVA_PROVISIONES
 
     # RESUMEN DE LA MISIÓN
-    print("\n--- RESUMEN DE LA MISIÓN ---")
+    print("--- RESUMEN DE LA MISIÓN ---")
     print("Nombre de la misión:", nombre_mision)
     print("Destino:", destino)
     print("Tripulantes:", tripulantes)
