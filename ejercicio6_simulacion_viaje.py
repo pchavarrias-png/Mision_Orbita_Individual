@@ -28,7 +28,7 @@ consumo_provisiones = tripulantes * PROVISIONES_POR_TRIPULANTE
 dias_transcurridos = 0
 viaje_puede_continuar = True
 
-print("\n--- INICIO DEL VIAJE ESPACIAL ---")
+print("--- INICIO DEL VIAJE ESPACIAL ---")
 
 # REPETIR MIENTRAS QUEDEN DIAS Y RECURSOS SUFICIENTES
 while dias_transcurridos < dias_viaje and viaje_puede_continuar:
@@ -48,7 +48,7 @@ while dias_transcurridos < dias_viaje and viaje_puede_continuar:
         # Registrar dia completado
         dias_transcurridos = dias_transcurridos + 1
 
-        print("\nDia completado:", dias_transcurridos)
+        print("Dia completado:", dias_transcurridos)
         print("Combustible restante:", combustible)
         print("Oxigeno restante:", oxigeno)
         print("Energia restante:", energia)
@@ -59,7 +59,7 @@ while dias_transcurridos < dias_viaje and viaje_puede_continuar:
 
 # RESULTADO FINAL
 if dias_transcurridos == dias_viaje:
-    print("\nLa nave llego al destino en", dias_transcurridos, "dias.")
+    print("La nave llego al destino en", dias_transcurridos, "dias.")
     print("Recursos finales:")
     print("Combustible:", combustible)
     print("Oxigeno:", oxigeno)
@@ -67,7 +67,7 @@ if dias_transcurridos == dias_viaje:
     print("Provisiones:", provisiones)
 
 else:
-    print("\nViaje interrumpido en el dia", dias_transcurridos + 1)
+    print("Viaje interrumpido en el dia", dias_transcurridos + 1)
     print("Dias completados:", dias_transcurridos)
     print("Recursos insuficientes:")
 
